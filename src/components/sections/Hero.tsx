@@ -49,6 +49,13 @@ export function Hero() {
                                 WhatsApp Us
                             </Link>
                             <Link
+                                href="https://forbi-pos.vercel.app/" // or "/dashboard", "/features", etc.
+                                className="flex items-center gap-2 rounded-full bg-purple-600 px-8 py-3 text-base font-semibold text-white transition-all hover:bg-purple-700 hover:shadow-lg hover:shadow-purple-500/50"
+                            >
+                                🚀 View Demo
+                            </Link>
+
+                            <Link
                                 href="tel:+917025800254"
                                 className="flex items-center gap-2 rounded-full bg-blue-600 px-8 py-3 text-base font-semibold text-white transition-all hover:bg-blue-700 hover:shadow-lg hover:shadow-blue-500/50"
                             >
@@ -64,7 +71,7 @@ export function Hero() {
                             </Link>
                         </motion.div>
                     </div>
-<HeroScrollDemo/>
+                    <HeroScrollDemo />
                 </div>
             </div>
         </div>
